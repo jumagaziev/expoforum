@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.main{
+    background-image: url(https://images.unsplash.com/photo-1444084316824-dc26d6657664?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 800px;
+}
+.header{
+    display: flex;
+}
+nav ul{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-top: -60px;
+    margin-left: 5px;
+}
+li{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover{
+    color: black;
+    cursor: pointer;
+}
+.text{
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.block{
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+}
+.con-1{
+    margin-left: 25px;
+}
+.con-1 .text {
+    margin-top: 10px;
+}
+.block-section{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.one{
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+.two{
+    background-color: bisque;
+    margin-left: 10px;
+
+}
+.three{
+    background-color: darkgray;
+    margin-bottom: 10px;
+}
+.foure{
+    background-color: forestgreen;
+    margin-left: 10px;
+    
+}
+
